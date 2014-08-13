@@ -1,0 +1,157 @@
+/* @override http://local.paraentender.com/sites/paraentender.com/themes/tubulus/tubulus_style.css?mlk7pm */
+
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif|Arbutus+Slab|Brawler|Noto+Serif:400,700,400italic,700italic|Bitter:400,700,400italic|Buenard:400,700|Donegal+One);
+
+@media (min-width: 767px) {	
+	.dropdown-menu {
+		max-height: 400px;
+		overflow: hidden;
+		overflow-y: auto;
+	}
+}
+
+
+
+/* CONTENT */
+
+h1.page-header {
+	font-family: 'Arbutus Slab', serif;
+//	font-family: 'Noto Serif', serif;
+//	font-family: 'Bitter', serif;
+//	font-family: 'Buenard', serif;
+//	font-family: 'Donegal One', serif;
+	border-bottom: 0;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+article header {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+article header span.submitted {
+	font-family: 'Arbutus Slab', serif;
+	font-size: 18px;
+	font-style: normal;
+}
+
+article header span.submitted a:before, article header span.submitted a:hover {
+  content:"@";
+  color: #0088cc;
+  font-size: 90%;
+}
+
+div.field-name-body {
+	font-family: 'Droid Serif', serif;
+	font-size: 16px;
+	line-height: 1.8em;
+}
+
+article ol, article ul {
+	margin: 30px 60px;
+}
+
+article ol li, article ul li {
+	line-height: 1.8em;
+	margin-bottom: 10px;
+}
+
+/* NAVIGATION */
+
+body.front h1.page-header {
+	display: none;
+}
+body.front div.field-name-body {
+	margin-top: -50px;
+}
+
+ul.breadcrumb {
+	background: #fff;
+	text-transform: lowercase;
+	padding-left: 0;
+	margin-bottom: 30px;
+}
+
+footer.footer.container {
+	border: 0;
+}
+
+.navbar-inner {
+	height: 50px;
+	padding-top: 10px;
+}
+
+div.main-container.container {
+	margin-top: 30px;
+}
+
+body {
+	font-family: 'Arbutus Slab', serif;
+}
+
+input,
+button,
+select,
+textarea {
+	font-family: 'Arbutus Slab', serif;
+}
+
+ul.menu.nav a {
+	font-size: 16px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+ul.menu.nav.pull-right a {
+	font-size: 13px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+
+
+/* USER */
+
+body.page-internet-autores h1.page-header {
+	margin-bottom: 25px;
+}
+
+body.page-internet-autores div.views-field-field-about,
+div.field-name-field-about {
+	font-size: 15px;
+	line-height: 1.6em;
+	margin: 8px 0 30px;
+}
+
+body.page-internet-autores span.views-field.views-field-field-name {
+	font-size: 20px;
+}
+
+body.page-internet-autores span.views-field.views-field-name:before,
+body.page-internet-autores span.views-field.views-field-name:hover {
+  content:"@";
+  margin-right: -5px;
+  color: #0088cc;
+  font-size: 90%;
+}
+
+div.profile div.field.field-name-field-name {
+	font-weight: bold;
+	font-size: 18.5px;
+	margin: 0 0 5px 0;
+}
+
+div.profile div.field.field-name-field-url {
+	margin: 0 0 10px 0;
+	color: grey;
+}
+
+div.profile div.field.field-name-field-about {
+	margin-bottom: 25px;
+}
+
+body.page-user.page-user- h1.page-header:before {
+  content:"@";
+  font-size: 85%;
+}

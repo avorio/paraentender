@@ -1,0 +1,113 @@
+/* @override http://local.paraentender.com/sites/paraentender.com/themes/paraum/css/style.css?na95ok */
+
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif|Source+Sans+Pro:400,600,400italic,600italic);
+
+body,
+h1.page-header {
+  font-family: 'Droid Serif', serif;
+}
+
+div.profile,
+div.content {
+  font-family: 'Source Sans Pro', serif;
+  font-size: 1.2em;
+  line-height: 1.6em;
+}
+
+div.content p {
+  margin: 0 0 1.2em 0;
+}
+
+#block-search-form {
+  width: 250px;
+  padding-top: 3px;
+}
+
+ol.breadcrumb {
+  text-transform: lowercase;
+}
+
+body.page-user div.profile div.field.field-name-field-name {
+  font-weight: 600;
+}
+
+body.page-user div.profile div.field.field-name-field-url {
+  color: green;
+}
+
+body.page-user div.profile div.field.field-name-field-about {
+  margin-top: 20px;
+}
+
+body.front h1.page-header {
+  display: none;
+}
+
+div.node-article.node-teaser h2 {
+  font-family: 'Droid Serif', serif;
+}
+
+div.content blockquote p {
+  margin: 0;
+  font-weight: 400;
+  font-style: italic;
+  color: #797979;
+}
+
+/** Links **/
+
+ol.breadcrumb a,
+section#block-menu-menu-entenda a,
+div.content a,
+div.submitted a,
+ul.tabs--primary a,
+div.node-article.node-teaser a {
+  color: #4c8295;
+}
+
+ol.breadcrumb a:hover,
+section#block-menu-menu-entenda a:hover,
+div.content a:hover,
+div.submitted a:hover,
+ul.tabs--primary a:hover,
+div.node-article.node-teaser a:hover {
+  color: #5a9bb2;
+  text-decoration: underline;
+}
+
+section#block-menu-menu-entenda h2.block-title {
+  font-family: 'Droid Serif', serif;
+  font-size: 1.6em;
+}
+
+/** Autores **/
+
+div.view-content span.views-field-field-name {
+  font-size: 1.5em;
+}
+
+div.view-content span.views-field.views-field-name a.username {
+  color: #5a9bb2;
+}
+
+div.view-content span.views-field.views-field-name a.username:before {
+  content:"@";
+}
+
+div.view-content div.views-field.views-field-field-about {
+  margin: 20px;
+  font-family: 'Source Sans Pro', serif;
+  font-size: 1.1em;
+  line-height: 1.6em;
+}
+
+/** Drop-cap **/
+
+div.node-article div.field-name-body p:first-child:first-letter {
+  float: left;
+  color: #5a9bb2;
+  font-size: 5em;
+  line-height: 60px;
+  padding: 4px 8px 0 3px;
+  font-family: Georgia;
+}

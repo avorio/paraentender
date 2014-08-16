@@ -1,6 +1,9 @@
-/* @override http://local.paraentender.com/sites/paraentender.com/themes/paraum/css/style.css?na95ok */
+/* @override 
+	http://local.paraentender.com/sites/paraentender.com/themes/paraum/css/style.css?na95ok
+	http://paraentender.com/sites/paraentender.com/themes/paraum/css/style.css?naevdp
+*/
 
-@import url(http://fonts.googleapis.com/css?family=Droid+Serif|Source+Sans+Pro:400,600,400italic,600italic);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif|Source+Sans+Pro:400,600,400italic,600italic|Merriweather);
 
 body,
 h1.page-header {
@@ -110,4 +113,49 @@ div.node-article div.field-name-body p:first-child:first-letter {
   line-height: 60px;
   padding: 4px 8px 0 3px;
   font-family: Georgia;
+}
+
+div.node-article div.field-name-body blockquote p:first-child:first-letter {
+  float: inherit;
+  padding: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+
+
+/** Homepage blocks **/
+
+section#block-views-artigos-block-1,
+section#block-views-artigos-block-2,
+section#block-views-artigos-block-3 {
+  display: block;
+  width: 300px;
+  float: left;
+}
+
+section.block-views h2.block-title {
+  font-family: 'Merriweather', serif;
+  color: #666;
+  text-transform: lowercase;
+  margin: 30px 0 20px 0;
+}
+
+section.block-views div.view-content {
+  font-family: 'Source Sans Pro', serif;
+  font-size: 1.1em;
+  line-height: 1.8em;
+}
+
+section.block-views div.view-content a {
+  color: #4c8295;
+}
+
+
+/** Footer **/
+
+footer.footer.container {
+  background: #394f62;
+  width: 100%;
 }

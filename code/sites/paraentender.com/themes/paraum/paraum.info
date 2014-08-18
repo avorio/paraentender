@@ -16,6 +16,7 @@ regions[content]        = 'Content'
 regions[sidebar_first]  = 'Primary'
 regions[sidebar_second] = 'Secondary'
 regions[footer]         = 'Footer'
+regions[credits]        = 'Credits'
 regions[page_top]       = 'Page top'
 regions[page_bottom]    = 'Page bottom'
 

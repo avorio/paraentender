@@ -169,7 +169,7 @@
 	  <?php // print render($page['footer']); ?>
 
 		<div class="row">
-		  <div class="col-md-3">
+		  <div class="col-md-2">
 				<section id="links-projeto">
 					<h2>sobre</h2>
 					<?php
@@ -178,16 +178,25 @@
 					?>
 				</section>
 			</div>
-		  <div class="col-md-5">
+		  <div class="col-md-2">
 				<section id="links-projeto">
-					<h2>editores</h2>
-					<ul>
-						<li><a href="/user/1">André Avorio</a></li>
-						<li><a href="/user/3">Juliano Spyer</a></li>
-					</ul>
+					<h2>autores</h2>
+					<?php
+					$menu_autores = menu_navigation_links('menu-autores');
+					print theme('links__system_main_menu', array('links' => $menu_autores));
+					?>
 				</section>
 		  </div>
-		  <div class="col-md-4"><!-- MailChimp -->
+		  <div class="col-md-3">
+				<section id="links-projeto">
+					<h2>editores</h2>
+					<?php
+					$menu_editores = menu_navigation_links('menu-editores');
+					print theme('links__system_main_menu', array('links' => $menu_editores));
+					?>
+				</section>
+		  </div>
+		  <div class="col-md-5"><!-- MailChimp -->
 		<section id="mailchimp">
 			<h2>Newsletter</h2>
 			<p>Não perca as novidades do Para Entender. Inscreva-se na nossa newsletter!</p>

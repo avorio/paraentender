@@ -85,7 +85,7 @@ div.submitted a:hover,
 ul.tabs--primary a:hover,
 div.node-article.node-teaser a:hover {
   color: #5a9bb2;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 section#block-menu-menu-entenda h2.block-title {
@@ -246,4 +246,17 @@ div.credits {
 
 div.credits div.container {
   padding: 20px 0 20px 0;
+}
+
+div.node-article.node-teaser li.node-readmore a {
+	padding: 5px 10px 5px 10px;
+	border: 1px solid #4c8295;
+	border-radius: 3px;
+	font-family: 'Source Sans Pro';
+}
+
+div.node-article.node-teaser li.node-readmore a:hover {
+	background-color: #4c8295;
+	color: #fff;
+	text-decoration: none;
 }

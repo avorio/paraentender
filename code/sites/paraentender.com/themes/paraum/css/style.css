@@ -1,10 +1,10 @@
 /* @override http://paraentender.com/sites/paraentender.com/themes/paraum/css/style.css?nakfi7 */
 
-@import url(http://fonts.googleapis.com/css?family=Droid+Serif|Source+Sans+Pro:400,600,400italic,600italic|Merriweather);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic,600italic|Open+Sans);
 
 body,
 h1.page-header {
-  font-family: 'Droid Serif', serif;
+  font-family: 'Open Sans', serif;
 }
 
 body.toolbar .navbar-fixed-top {
@@ -57,7 +57,9 @@ body.front h1.page-header {
 }
 
 div.node-article.node-teaser h2 {
-  font-family: 'Droid Serif', serif;
+  font-family: 'Open Sans', serif;
+  font-size: 1.5em;
+  font-weight: 600;
 }
 
 div.content blockquote p {
@@ -89,7 +91,7 @@ div.node-article.node-teaser a:hover {
 }
 
 section#block-menu-menu-entenda h2.block-title {
-  font-family: 'Droid Serif', serif;
+  font-family: 'Open Sans', serif;
   font-size: 1.6em;
 }
 
@@ -146,8 +148,8 @@ section#block-views-artigos-block-3 {
 }
 
 section.block-views h2.block-title {
-  font-family: 'Merriweather', serif;
-  color: #666;
+  font-family: 'Open Sans', serif;
+  color: #444;
   text-transform: lowercase;
   margin: 30px 0 20px 0;
 }
@@ -200,7 +202,7 @@ section#mailchimp {
 section#links-projeto h2,
 section#mailchimp h2 {
   color: #eff3f3;
-  font-family: 'Merriweather', serif;
+  font-family: 'Open Sans', serif;
   font-size: 1.4em;
   text-transform: lowercase;
 }
@@ -259,4 +261,8 @@ div.node-article.node-teaser li.node-readmore a:hover {
 	background-color: #4c8295;
 	color: #fff;
 	text-decoration: none;
+}
+
+div.submitted {
+  font-style: normal;
 }

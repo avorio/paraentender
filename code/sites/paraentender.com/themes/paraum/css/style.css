@@ -1,3 +1,5 @@
+/* @override http://paraentender.com/sites/paraentender.com/themes/paraum/css/style.css?nakfi7 */
+
 @import url(http://fonts.googleapis.com/css?family=Droid+Serif|Source+Sans+Pro:400,600,400italic,600italic|Merriweather);
 
 body,
@@ -114,7 +116,7 @@ div.view-content div.views-field.views-field-field-about {
 
 /** Drop-cap **/
 
-div.node-article div.field-name-body p:first-child:first-letter {
+body.page-node.node-type-article div.node-article div.field-name-body p:first-child:first-letter {
   float: left;
   color: #5a9bb2;
   font-size: 5em;
@@ -123,7 +125,7 @@ div.node-article div.field-name-body p:first-child:first-letter {
   font-family: Georgia;
 }
 
-div.node-article div.field-name-body blockquote p:first-child:first-letter {
+body.page-node.node-type-article div.node-article div.field-name-body blockquote p:first-child:first-letter {
   float: inherit;
   padding: inherit;
   font-family: inherit;

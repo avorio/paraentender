@@ -172,13 +172,10 @@
 		  <div class="col-md-3">
 				<section id="links-projeto">
 					<h2>sobre</h2>
-					<ul>
-						<li><a href="/entenda/sobre">o projeto</a></li>
-						<li><a href="/entenda">tornar-se co-autor</a></li>
-						<li><a href="/entenda/conceito">o conceito</a></li>
-						<li><a href="/entenda/estilo">dicas de estilo</a></li>
-						<li><a href="/entenda/porque">porque participar</a></li>
-					</ul>
+					<?php
+					$menu_sobre = menu_navigation_links('menu-sobre');
+					print theme('links__system_main_menu', array('links' => $menu_sobre));
+					?>
 				</section>
 			</div>
 		  <div class="col-md-5">

@@ -220,7 +220,7 @@
 	<div class="container">
 		<div class="row">
 		  <div class="col-md-11"></div>
-		  <div class="col-md-1"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></div>
+		  <div class="col-md-1"><img src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></div>
 		</div>
 	</div>
 </div> <!-- /#credits -->

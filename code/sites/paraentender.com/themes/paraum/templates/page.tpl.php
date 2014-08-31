@@ -169,28 +169,34 @@
 	  <?php // print render($page['footer']); ?>
 
 		<div class="row">
-		  <div class="col-md-3">
+		  <div class="col-md-2">
 				<section id="links-projeto">
 					<h2>sobre</h2>
-					<ul>
-						<li><a href="/entenda/sobre">o projeto</a></li>
-						<li><a href="/entenda">tornar-se co-autor</a></li>
-						<li><a href="/entenda/conceito">o conceito</a></li>
-						<li><a href="/entenda/estilo">dicas de estilo</a></li>
-						<li><a href="/entenda/porque">porque participar</a></li>
-					</ul>
+					<?php
+					$menu_sobre = menu_navigation_links('menu-sobre');
+					print theme('links__system_main_menu', array('links' => $menu_sobre));
+					?>
 				</section>
 			</div>
-		  <div class="col-md-5">
+		  <div class="col-md-2">
 				<section id="links-projeto">
-					<h2>editores</h2>
-					<ul>
-						<li><a href="/user/1">André Avorio</a></li>
-						<li><a href="/user/3">Juliano Spyer</a></li>
-					</ul>
+					<h2>autores</h2>
+					<?php
+					$menu_autores = menu_navigation_links('menu-autores');
+					print theme('links__system_main_menu', array('links' => $menu_autores));
+					?>
 				</section>
 		  </div>
-		  <div class="col-md-4"><!-- MailChimp -->
+		  <div class="col-md-3">
+				<section id="links-projeto">
+					<h2>editores</h2>
+					<?php
+					$menu_editores = menu_navigation_links('menu-editores');
+					print theme('links__system_main_menu', array('links' => $menu_editores));
+					?>
+				</section>
+		  </div>
+		  <div class="col-md-5"><!-- MailChimp -->
 		<section id="mailchimp">
 			<h2>Newsletter</h2>
 			<p>Não perca as novidades do Para Entender. Inscreva-se na nossa newsletter!</p>
@@ -214,7 +220,7 @@
 	<div class="container">
 		<div class="row">
 		  <div class="col-md-11"></div>
-		  <div class="col-md-1"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></div>
+		  <div class="col-md-1"><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR"><img src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a></div>
 		</div>
 	</div>
 </div> <!-- /#credits -->

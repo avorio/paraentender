@@ -23,6 +23,10 @@ function download_count_rules_event_info() {
           'type' => 'user',
           'label' => t('Downloading user'),
         ),
+       'node' => array(
+         'type' => 'node',
+         'label' => t('Node the file download is associated with'),
+        ),
       ),
     ),
   );

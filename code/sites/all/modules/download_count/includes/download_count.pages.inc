@@ -25,36 +25,36 @@ function download_count_view_page($arg = NULL) {
     ),
     array(
       'data' => t('Count'),
-      'field' => t('count'),
-      'sort' => t('desc'),
+      'field' => 'count',
+      'sort' => 'desc',
     ),
     array(
       'data' => t('FID'),
-      'field' => t('FID'),
+      'field' => 'FID',
     ),
     array(
       'data' => t('Entity Type'),
-      'field' => t('type'),
+      'field' => 'type',
     ),
     array(
       'data' => t('Entity ID'),
-      'field' => t('id'),
+      'field' => 'id',
     ),
     array(
       'data' => t('File name'),
-      'field' => t('filename'),
+      'field' => 'filename',
     ),
     array(
       'data' => t('File Size'),
-      'field' => t('file-size'),
+      'field' => 'file-size',
     ),
     array(
       'data' => t('Total Size'),
-      'field' => t('total-size'),
+      'field' => 'total-size',
     ),
     array(
       'data' => t('Last Downloaded'),
-      'field' => t('last'),
+      'field' => 'last',
     ),
   );
 

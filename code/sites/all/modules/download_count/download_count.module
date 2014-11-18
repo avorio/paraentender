@@ -198,7 +198,7 @@ function download_count_file_download_access_alter(&$grants, $file, $entity_type
   watchdog('download_count', '%file was downloaded by user #%uid from %ip', array('%file' => $file['filename'], '%uid' => $user->uid, '%ip' => $ip), WATCHDOG_NOTICE);
 
   if (module_exists('rules')) {
-    rules_invoke_event('download_count_file_download', (object) $file, $user);
+    rules_invoke_event('download_count_file_download', (object) $file, $user, $entity);
   }
 }
 

@@ -162,6 +162,304 @@
     <?php endif; ?>
 
   </div>
+  
+  <!-- ASPAS -->
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <style class="cp-pen-styles">/* carousel */
+  #quote-carousel 
+  {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px 0px 0px;
+  }
+
+  /* Control buttons  */
+  #quote-carousel .carousel-control
+  {
+    background: none;
+    color: #222;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+  }
+  /* Previous button  */
+  #quote-carousel .carousel-control.left 
+  {
+    left: -12px;
+  }
+  /* Next button  */
+  #quote-carousel .carousel-control.right 
+  {
+    right: -12px !important;
+  }
+  /* Changes the position of the indicators */
+  #quote-carousel .carousel-indicators 
+  {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+  }
+  /* Changes the color of the indicators */
+  #quote-carousel .carousel-indicators li 
+  {
+    background: #c0c0c0;
+  }
+  #quote-carousel .carousel-indicators .active 
+  {
+    background: #333333;
+  }
+  #quote-carousel img
+  {
+    width: 250px;
+    height: 100px
+  }
+  /* End carousel */
+
+  .item blockquote {
+      border-left: none; 
+      margin: 0;
+  }
+
+  .item blockquote img {
+      margin-bottom: 10px;
+  }
+
+  .item blockquote p:before {
+      content: "\f10d";
+      font-family: 'Fontawesome';
+      float: left;
+      margin-right: 10px;
+  }
+
+
+
+  /**
+    MEDIA QUERIES
+  */
+
+  /* Small devices (tablets, 768px and up) */
+  @media (min-width: 768px) { 
+      #quote-carousel 
+      {
+        margin-bottom: 0;
+        padding: 0 40px 30px 40px;
+        margin-top: 30px;
+      }
+    
+  }
+
+  /* Small devices (tablets, up to 768px) */
+  @media (max-width: 768px) { 
+    
+      /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    
+      #quote-carousel .carousel-indicators {
+          bottom: -20px !important;  
+      }
+      #quote-carousel .carousel-indicators li {
+          display: inline-block;
+          margin: 0px 5px;
+          width: 15px;
+          height: 15px;
+      }
+      #quote-carousel .carousel-indicators li.active {
+          margin: 0px 5px;
+          width: 20px;
+          height: 20px;
+      }
+  }</style>
+  <div class="container">
+    <div class="row">
+      <div class='col-md-offset-2 col-md-8 text-center'>
+      <!-- <h2>Aspas</h2> -->
+      </div>
+    </div>
+    <div class='row'>
+      <div class='col-md-offset-2 col-md-8'>
+        <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+          <!-- Bottom Carousel Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#quote-carousel" data-slide-to="1"></li>
+            <li data-target="#quote-carousel" data-slide-to="2"></li>
+            <li data-target="#quote-carousel" data-slide-to="3"></li>
+            <li data-target="#quote-carousel" data-slide-to="4"></li>
+            <li data-target="#quote-carousel" data-slide-to="5"></li>
+            <li data-target="#quote-carousel" data-slide-to="6"></li>
+            <li data-target="#quote-carousel" data-slide-to="7"></li>
+            <li data-target="#quote-carousel" data-slide-to="8"></li>
+            <li data-target="#quote-carousel" data-slide-to="9"></li>
+            <li data-target="#quote-carousel" data-slide-to="10"></li>
+          </ol>
+        
+          <!-- Carousel Slides / Quotes -->
+          <div class="carousel-inner">
+        
+            <!-- Quote 1 -->
+            <div class="item active">
+              <blockquote>
+                <div class="row">
+                  <div class="col-sm-3 text-center">
+                    <img class="img-circle" src="https://pbs.twimg.com/profile_images/592358405349646337/eU6kmnrp.jpg" style="width: 100px;height:100px;">
+                  </div>
+                  <div class="col-sm-9">
+                    <p>O projeto me lembra a coleção Primeiros Passos, que tratava de assuntos mundanos e complexos, mas que sempre disfarçava a complexidade do assunto em edições pequenas, de bolso, quase inofensivas. Quando o objetivo é 'Entender a Internet', o ideal é que seja feito como esta coleção, com textos pequenos escritos por alguns dos maiores especialistas do mercado brasileiro, mas acima de tudo fáceis de ler. Ao final, dá pra entender a Internet? Lógico, exceto que ela continua mudando. E a gente também, como tudo. Mas a vontade de entender permanece com o leitor.</p>
+                    <small>Eduardo Acquarone, editor executivo de mídias digitais da TV Globo e bolsista do Tow Knight Center em Nova York</small>
+                  </div>
+                </div>
+              </blockquote>
+            </div>
+            <!-- Quote 2 -->
+            <div class="item">
+              <blockquote>
+                <div class="row">
+                  <div class="col-sm-3 text-center">
+                    <img class="img-circle" src="https://pbs.twimg.com/profile_images/526497249228881920/4jF7dDAU.jpeg" style="width: 100px;height:100px;">
+                  </div>
+                  <div class="col-sm-9">
+                    <p>O Para Entender a Internet traz uma visão privilegiada de como a tecnologia e a comunicação se organizaram em rede, o livro é escrito por diversas pessoas que experimentaram esses conceitos na prática, muitas vezes antes deles se tornarem padrões de mercado e em alguns casos os autores aqui presentes ajudaram na própria criação ou consolidação desse conceito. É uma visão de dentro sem exageros ou tecnicismos, o livro é escrito numa linguagem acessível para quem quer se familiarizar com as tecnologias a serviços da comunicação do mundo atual e se libertar dos conceitos ultrapassados do século XX.</p>
+                    <small>Edney Souza, Professor da ESPM e FGV e Consultor independente</small>
+                  </div>
+                </div>
+              </blockquote>
+            </div>
+            <!-- Quote 2 -->
+            <div class="item">
+              <blockquote>
+                <div class="row">
+                  <div class="col-sm-3 text-center">
+                    <img class="img-circle" src="https://pbs.twimg.com/profile_images/378800000470078679/ac940fd46810f9df8862f6d2f869a711.jpeg" style="width: 100px;height:100px;">
+                  </div>
+                  <div class="col-sm-9">
+                    <p>O Para Entender a Internet foi uma iniciativa importante para fomentar a inclusão digital no Brasil. Ver o projeto ganhar as prateleiras é um misto de orgulho com sentimento de dever cumprido.</p>
+                    <small>Rafael Ziggy, Estrategista Digital da Agência Africa</small>
+                  </div>
+                </div>
+              </blockquote>
+            </div>
+            <!-- Quote 2 -->
+            <div class="item">
+              <blockquote>
+                <div class="row">
+                  <div class="col-sm-3 text-center">
+                    <img class="img-circle" src="http://www.rioinfo.com.br/2015/wp-content/uploads/2015/06/Carlos-Estigarribia.jpg" style="width: 100px;height:100px;">
+                  </div>
+                  <div class="col-sm-9">
+                    <p>O Para Entender traz textos fáceis de ler e que agradam desde novatos até quem já trabalha na área, pois são tantos os temas abordados que sempre tem alguma novidade até pros experts. Agora que o projeto virtual chega ao papel cabe a todos nós fazemos o que já fazemos online, não deixar o livro parado numa estante e circulá-lo entre amigos, parentes e desconhecidos.</p>
+                    <small>Carlos Estigarribia, sócio da RightZero e fundador da ABRAGAMES e da NearBytes</small>
+                  </div>
+                </div>
+              </blockquote>
+            </div>
+            <!-- Quote 2 -->
+            <div class="item">
+              <blockquote>
+                <div class="row">
+                  <div class="col-sm-3 text-center">
+                    <img class="img-circle" src="http://elifeportugal.com/uploads/posts/300x300/alessandro.png" style="width: 100px;height:100px;">
+                  </div>
+                  <div class="col-sm-9">
+                    <p>O Para Entender a Internet nunca foi tão atual. Os temas exigem um olhar e reflexão ainda mais cuidadoso por parte dos consumidores e das empresas. E continuarão sendo uma preocupação constante das próximas gerações que trabalham com Comunicação Digital.</p>
+                    <small>Alessandro Lima, CEO da E.life</small>
+                  </div>
+                </div>
+              </blockquote>
+            </div>
+            <!-- Quote 2 -->
+            <div class="item">
+              <blockquote>
+                <div class="row">
+                  <div class="col-sm-3 text-center">
+                    <img class="img-circle" src="ale.png" style="width: 100px;height:100px;">
+                  </div>
+                  <div class="col-sm-9">
+                    <p>Seis anos se passaram do lançamento original do 'Para Entender...' e eis o livro aqui: não só ainda pertinente, mas também crescido e fortalecido. Isso é uma boa medida do quanto os artigos conseguiram de fato tocar no cerne dos seus temas e do quanto os organizadores foram bem sucedidos na seleção do que deveria ser abordado, mas é sobretudo uma amostra de que o livro é, em si mesmo, um exemplo de uma prática de produção cultural típica da internet.</p>
+                    <small>Diego Franco, pesquisador e professor da Universidade Metodista de SP</small>
+                  </div>
+                </div>
+              </blockquote>
+            </div>
+            <!-- Quote 2 -->
+            <div class="item">
+              <blockquote>
+                <div class="row">
+                  <div class="col-sm-3 text-center">
+                    <img class="img-circle" src="https://pbs.twimg.com/profile_images/601770409869049858/-6c56jee.jpg" style="width: 100px;height:100px;">
+                  </div>
+                  <div class="col-sm-9">
+                    <p>Entender a Internet é um BHAG como diz Jim Collins em Built to Last, um Big Hairy Audicious Goal, um objetivo enorme, audacioso e cabeludo! E assim, os desorganizadores dessa empreitada reuniram pessoas dos mais diferentes campos de atuação. Acadêmicos, ativistas políticos, profissionais, executivos, todos trabalhando em conjunto contribuindo e colaborando para esse enorme objetivo. Espero que gostem do livro e que entendam que sozinhos nenhum de nós entende a Internet.</p>
+                    <small>Stelleo Tolda, COO do MercadoLivre</small>
+                  </div>
+                </div>
+              </blockquote>
+            </div>
+            <!-- Quote 2 -->
+            <div class="item">
+              <blockquote>
+                <div class="row">
+                  <div class="col-sm-3 text-center">
+                    <img class="img-circle" src="https://pbs.twimg.com/profile_images/213769519/Snapshot_20090513_2.jpg" style="width: 100px;height:100px;">
+                  </div>
+                  <div class="col-sm-9">
+                    <p>Para alguns a Internet parece uma coisa óbvia. Para os mais jovens, que já nasceram conectados na Web, isso é ainda mais verdadeiro. O que este livro mostra é que não é bem assim. Essa rede de computadores espalhados pelo mundo utilizou, na sua formação, e mobilizou, no seu desenvolvimento, uma série de conceitos, ideias e comportamentos que a transformaram em uma instituição, no sentido sociológico do termo. A Internet enquanto instituição não é uma coisa óbvia e esse livron os ajuda a entende-la de modo diferente e melhor.</p>
+                    <small>Fernando Guarnieri é professor de Ciência Política do IESP/UERJ</small>
+                  </div>
+                </div>
+              </blockquote>
+            </div>
+            <!-- Quote 2 -->
+            <div class="item">
+              <blockquote>
+                <div class="row">
+                  <div class="col-sm-3 text-center">
+                    <img class="img-circle" src="https://pbs.twimg.com/profile_images/628539894202150912/GVXoCQKz.jpg" style="width: 100px;height:100px;">
+                  </div>
+                  <div class="col-sm-9">
+                    <p>Em tempos de ubiquidade total de dispositivos, onde as telas ultrapassaram o status de interface para se fundir aos seres humanos numa simbiose de dados e emoções, Para Entender a Internet ainda é o melhor manual de instruções para novatos e veteranos no ambiente digital. Tudo o que você precisa saber para navegar com segurança na web está nesse guia. Mergulhe sem medo.</p>
+                    <small>Fábio Fernandes, escritor, tradutor, pesquisador e professor da PUC-SP</small>
+                  </div>
+                </div>
+              </blockquote>
+            </div>
+            <!-- Quote 2 -->
+            <div class="item">
+              <blockquote>
+                <div class="row">
+                  <div class="col-sm-3 text-center">
+                    <img class="img-circle" src="ale.png" style="width: 100px;height:100px;">
+                  </div>
+                  <div class="col-sm-9">
+                    <p>A riqueza dos textos no 'Para Entender', e seu processo participativo de produção, tanto revelam uma necessidade de perdermos a visão ingênua de que compreendemos a Internet somente a partir do nosso uso, popularizada no mito dos 'nativos digitais', como demonstram a capacidade de adaptação dessa sociedade em rede, abrindo caminhos para juntos aprofundarmos nosso pensamento!</p>
+                    <small>Ale Abdo, membro do Garoa Hacker Clube</small>
+                  </div>
+                </div>
+              </blockquote>
+            </div>
+            <!-- Quote 3 -->
+            <div class="item">
+              <blockquote>
+                <div class="row">
+                  <div class="col-sm-3 text-center">
+                    <img class="img-circle" src="https://pbs.twimg.com/profile_images/1619343586/manoel_lemos_portrait.jpg" style="width: 100px;height:100px;">
+                  </div>
+                  <div class="col-sm-9">
+                    <p>Não existe dúvida de que a computação e a Internet são as forças transformadores mais fortes que a humanidade conheceu nas últimas quatro décadas e que, provavelmente, continuarão assim pelas próximas quatro. Entender os conceitos e dinâmicas que fazem da Internet este motor de transformação e suas principais conseqüências e implicações para o indivíduo, a sociedade e os negócios é fundamental para vivermos melhor neste mundo conectado. Este livro foi construído sobre os fundamentos da rede e é um guia para nós, os usuários.</p>
+                    <small>Manoel Lemos, sócio da Redpoint e.Ventures e fundador do Fazedores.com</small>
+                  </div>
+                </div>
+              </blockquote>
+            </div>
+          </div>
+        
+          <!-- Carousel Buttons Next/Prev -->
+          <!-- <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+          <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a> -->
+        </div>                          
+      </div>
+    </div>
+  </div>
+  <!-- ASPAS -->
+  
 </div>
 
 <footer class="footer">
@@ -225,3 +523,14 @@
 	</div>
 </div> <!-- /#credits -->
 <?php endif; ?>
+
+
+<script>
+$(document).ready(function () {
+    $('#quote-carousel').carousel({
+        pauseOnHover: true,
+        interval: 300
+    });
+});
+//@ sourceURL=pen.js
+</script>

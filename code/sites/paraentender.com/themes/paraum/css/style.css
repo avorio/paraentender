@@ -1,10 +1,41 @@
-/* @override http://paraentender.com/sites/paraentender.com/themes/paraum/css/style.css?nakfi7 */
+/* @override 
+	http://paraentender.com/sites/paraentender.com/themes/paraum/css/style.css?nakfi7
+	http://paraentender.com/sites/paraentender.com/themes/paraum/css/style.css?o6c7j2
+*/
 
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic,600italic|Open+Sans);
 
 body,
 h1.page-header {
   font-family: 'Open Sans', serif;
+}
+
+span.capa_h1 {
+	display: block;
+	margin: 50px 0 20px 0;
+	font-family: 'Open Sans', serif;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+span.capa_h2 {
+	display: block;
+	margin: 0;
+	font-family: 'Open Sans', serif;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+span.capa_h3 {
+	display: block;
+	margin: 6px 0 20px 0;
+	font-family: 'Open Sans', serif;
+	font-size: .95em;
+}
+
+span.capa_h4 {
+	font-family: 'Open Sans', serif;
+	font-size: 1.2em;
 }
 
 body.toolbar .navbar-fixed-top {

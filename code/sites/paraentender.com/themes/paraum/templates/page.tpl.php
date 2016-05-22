@@ -166,7 +166,7 @@
 
   </div>
   
-  <?php if ($is_front) { ?>
+  <?php if ($is_front == TRUE) { ?>
   <!-- ASPAS -->
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <style class="cp-pen-styles">/* carousel */

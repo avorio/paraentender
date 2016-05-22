@@ -462,20 +462,6 @@
   <!-- ASPAS -->
   <?php } ?>
 
-  <div class="row">
-    <h2>Envie um texto</h2>
-    <p>O Para Entender é um livro em constante processo de transformação. Se existe um tópico relacionado à temática da internet que não tenha sido contemplado, se torne o autor desse texto. Estes são alguns temas a procura de autores:</p>
-    <ul>
-      <li>Antropologia digital</li>
-      <li>WhatsApp</li>
-      <li>Livro eletrônico</li>
-      <li>Dark Web</li>
-      <li>Anonymous</li>
-      <li>Pornografia online</li>
-    </ul>
-    <p>Existem ainda <a href="/entenda">outras formas de participar</a>.</p>
-  </div>
-  
 </div>
 
 <footer class="footer">

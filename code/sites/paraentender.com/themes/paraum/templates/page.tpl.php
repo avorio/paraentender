@@ -125,6 +125,9 @@
 
   <div class="row">
 
+<h1>Seja bem-vindo ao Para Entender a Internet, um livro vivo que se atualiza e do qual você pode participar como autor.</h1>
+<h2>Conheça a história e o conceito deste projeto.</h2>
+
     <?php if (!empty($page['sidebar_first'])): ?>
       <aside class="col-sm-3" role="complementary">
         <?php print render($page['sidebar_first']); ?>
@@ -163,6 +166,7 @@
 
   </div>
   
+  <?php if ($is_front) { ?>
   <!-- ASPAS -->
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <style class="cp-pen-styles">/* carousel */
@@ -457,8 +461,10 @@
         </div>                          
       </div>
     </div>
+
   </div>
   <!-- ASPAS -->
+  <?php } ?>
   
 </div>
 

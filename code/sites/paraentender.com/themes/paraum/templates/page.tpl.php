@@ -124,10 +124,6 @@
   </header> <!-- /#page-header -->
 
   <div class="row">
-
-<h1>Seja bem-vindo ao Para Entender a Internet, um livro vivo que se atualiza e do qual você pode participar como autor.</h1>
-<h2>Conheça a história e o conceito deste projeto.</h2>
-
     <?php if (!empty($page['sidebar_first'])): ?>
       <aside class="col-sm-3" role="complementary">
         <?php print render($page['sidebar_first']); ?>
